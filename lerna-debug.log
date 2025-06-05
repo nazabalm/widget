@@ -1,0 +1,63 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   changelog: false,
+0 silly argv   push: false,
+0 silly argv   'git-tag-version': false,
+0 silly argv   gitTagVersion: false,
+0 silly argv   private: false,
+0 silly argv   lernaVersion: '8.2.2',
+0 silly argv   '$0': 'node_modules/lerna/dist/cli.js'
+0 silly argv }
+1 notice cli v8.2.2
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
+3 verbose rootPath /Users/martinnazabal/Projects/widget-nazabalm/widget
+4 info versioning independent
+5 notice FYI git repository validation has been skipped, please ensure your version bumps are correct
+6 silly hasTags
+7 verbose hasTags false
+8 info Assuming all packages changed
+9 verbose updated @lifi/wallet-management
+10 verbose updated @nazabalm/widget
+11 verbose updated @lifi/widget-embedded
+12 verbose updated @lifi/widget-playground
+13 verbose updated @lifi/widget-playground-next
+14 verbose updated @lifi/widget-playground-vite
+15 warn version Skipping working tree validation, proceed at your own risk
+16 info execute Skipping git tag/commit
+17 info execute Skipping git push
+18 info execute Skipping releases
+19 silly lifecycle No script for "preversion" in "widget-nazabal-fork", continuing
+20 silly lifecycle No script for "preversion" in "@lifi/wallet-management", continuing
+21 verbose version @lifi/wallet-management has no lockfile. Skipping lockfile update.
+22 silly lifecycle No script for "version" in "@lifi/wallet-management", continuing
+23 silly lifecycle No script for "preversion" in "@nazabalm/widget", continuing
+24 verbose version @nazabalm/widget has no lockfile. Skipping lockfile update.
+25 silly lifecycle No script for "version" in "@nazabalm/widget", continuing
+26 silly lifecycle No script for "version" in "widget-nazabal-fork", continuing
+27 verbose version Updating root pnpm-lock.yaml
+28 error Error: Command failed with exit code 1: corepack pnpm install --lockfile-only --ignore-scripts
+28 error Scope: all 22 workspace projects
+28 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+28 error Progress: resolved 1, reused 0, downloaded 0, added 0
+28 error Progress: resolved 11, reused 0, downloaded 0, added 0
+28 error Progress: resolved 14, reused 0, downloaded 0, added 0
+28 error Progress: resolved 17, reused 0, downloaded 0, added 0
+28 error Progress: resolved 19, reused 0, downloaded 0, added 0
+28 error Progress: resolved 24, reused 0, downloaded 0, added 0
+28 error Progress: resolved 38, reused 0, downloaded 0, added 0
+28 error Progress: resolved 49, reused 0, downloaded 0, added 0
+28 error Progress: resolved 54, reused 0, downloaded 0, added 0
+28 error Progress: resolved 75, reused 0, downloaded 0, added 0
+28 error Progress: resolved 102, reused 0, downloaded 0, added 0
+28 error /Users/martinnazabal/Projects/widget-nazabalm/widget/packages/widget-playground-next:
+28 error  ERR_PNPM_FETCH_404  GET https://registry.npmjs.org/@lifi%2Fwidget-playground: Not Found - 404
+28 error
+28 error This error happened while installing a direct dependency of /Users/martinnazabal/Projects/widget-nazabalm/widget/packages/widget-playground-next
+28 error
+28 error @lifi/widget-playground is not in the npm registry, or you have no permission to fetch it.
+28 error
+28 error An authorization header was used: Bearer npm_[hidden]
+28 error packages/widget-playground               |  WARN  deprecated lodash.isequal@4.5.0
+28 error     at makeError (/Users/martinnazabal/Projects/widget-nazabalm/widget/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+28 error     at handlePromise (/Users/martinnazabal/Projects/widget-nazabalm/widget/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+28 error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

@@ -1,6 +1,6 @@
 {
-  "name": "@lifi/widget",
-  "version": "3.23.0",
+  "name": "@nazabalm/widget",
+  "version": "3.23.1",
   "description": "LI.FI Widget for cross-chain bridging and swapping. It will drive your multi-chain strategy and attract new users from everywhere.",
   "type": "module",
   "main": "./src/index.ts",
@@ -26,14 +26,14 @@
     "test": "vitest run"
   },
   "author": "Eugene Chybisov <eugene@li.finance>",
-  "homepage": "https://github.com/lifinance/widget",
+  "homepage": "https://github.com/nazabalm/widget",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lifinance/widget.git",
+    "url": "https://github.com/nazabalm/widget.git",
     "directory": "packages/widget"
   },
   "bugs": {
-    "url": "https://github.com/lifinance/widget/issues"
+    "url": "https://github.com/nazabalm/widget/issues"
   },
   "license": "Apache-2.0",
   "keywords": [
@@ -54,7 +54,7 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@lifi/sdk": "^3.7.7",
-    "@lifi/wallet-management": "workspace:^",
+    "@lifi/wallet-management": "^3.7.7",
     "@mui/icons-material": "^7.1.0",
     "@mui/material": "^7.1.0",
     "@mui/system": "^7.1.0",
